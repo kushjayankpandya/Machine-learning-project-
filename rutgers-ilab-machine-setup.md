@@ -1,6 +1,6 @@
 # To execute machine learning / deep learning project in Rutgers ilab (virtual machines) follow below steps....
 
-## Steps
+## Steps To Follow
 
 * Login to Rutgers CS website to execute resources using https://weblogin.cs.rutgers.edu/guacamole-1.4.0/#/
 
@@ -26,7 +26,6 @@
         > conda install tensorflow-gpu
         > conda install torch
 
-    5. To start in Jupyter Notebook
         > jupyter notebook --ip=`hostname`
 
     6. SSH from local machine to Rutgers ilab machines
