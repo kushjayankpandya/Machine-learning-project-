@@ -29,5 +29,13 @@
     5. To start in Jupyter Notebook
         > jupyter notebook --ip=`hostname`
 
-    6. SSH from local machine to Rutgers ilab machines
+    6. To use the above environment in jupyter labs install ipykernel,
+        > conda install ipykernel
+    
+    7. Create ipykernel to use above virtual environment,
+        > ipython kernel install --user --name=mypython39-kernel
+    
+    8. Switch to kernel mypython39-kernel in jypyter labs.
+
+    9. SSH from local machine to Rutgers ilab machines
         > ssh <net_id>@<machine_name>.cs.rutgers.edu
