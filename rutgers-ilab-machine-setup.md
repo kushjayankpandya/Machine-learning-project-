@@ -94,6 +94,15 @@ Username for 'https://github.com': <githubid>
 Password for 'https://<githubid>@github.com':
    ```
 
+12. Add global identity to git.
+
+```
+git config --global user.name "<githubid>"
+ git config --global user.email "<githubid>"
+```
+
+
+
 NOTES:
 
 * Login to Rutgers CS website to execute resources using https://weblogin.cs.rutgers.edu/guacamole-1.4.0/#/
