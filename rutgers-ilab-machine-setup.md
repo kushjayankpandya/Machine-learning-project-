@@ -29,8 +29,7 @@
 
 6. Install the tensorflow-gpu and ipykernel packages:
 
-   > conda install tensorflow-gpu
-conda install ipykernel 
+   > conda install tensorflow-gpu <br /> conda install ipykernel 
     
 
 7. Create a ipykernel to be used in our virtual environment:
@@ -52,12 +51,10 @@ conda install ipykernel
    
 10. To check the setup, execute this Python code inside the Jupyter notebook:
 
-   > import tensorflow as tf
-tf.config.list_physical_devices()
-tf.test.is_built_with_cuda()
+   > import tensorflow as tf <br /> tf.config.list_physical_devices()  <br /> tf.test.is_built_with_cuda()
 
    (NOTE: The output should look like this. Notice the "True" at the end of the output.
-   
+ ```  
    2023-04-01 21:44:57.000826: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
 2023-04-01 21:45:00.716829: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
 2023-04-01 21:45:00.718828: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
@@ -83,6 +80,7 @@ coreClock: 1.582GHz coreCount: 28 deviceMemorySize: 10.92GiB deviceMemoryBandwid
 2023-04-01 21:45:01.115718: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
 2023-04-01 21:45:01.128583: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0, 1, 2, 3
 True)
+```
 
 
 NOTES:
