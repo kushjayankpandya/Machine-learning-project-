@@ -81,7 +81,18 @@ coreClock: 1.582GHz coreCount: 28 deviceMemorySize: 10.92GiB deviceMemoryBandwid
 2023-04-01 21:45:01.128583: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0, 1, 2, 3
 True)
 ```
+11. Setup your repo directory:
 
+   > mkdir gitrepo <br /> cd gitrepo <br /> git clone https://github.com/<githubid>/Major_Project_Image-_Restoration.git 
+
+   you would get to fill your github id and password
+
+   ```
+   <netid>@ilab1:~$ git clone https://github.com/<githubid>/Machine-learning-project-.git
+Cloning into 'Machine-learning-project-'...
+Username for 'https://github.com': <githubid>
+Password for 'https://<githubid>@github.com':
+   ```
 
 NOTES:
 
