@@ -40,7 +40,7 @@ conda install ipykernel
 
 8. Open a Jupyter notebook:
 
-   > jupyter notebook --ip=`hostname`
+   > jupyter notebook --ip=\`hostname\`
 
    (NOTE: Do NOT change the above command, run as it is)
    
