@@ -29,7 +29,7 @@ source activate mypython39
 
 6. Install the tensorflow-gpu and ipykernel packages:
 ```
-conda install tensorflow-gpu <br /> conda install ipykernel 
+conda install tensorflow-gpu <br /> conda install scikit-image <br/> conda install ipykernel
 ```    
 
 7. Create a ipykernel to be used in our virtual environment:
